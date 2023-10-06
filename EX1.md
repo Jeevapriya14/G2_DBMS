@@ -28,7 +28,8 @@ create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),
 
 
 ### OUTPUT:
-![Create table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/5309e192-aa2c-458e-a94e-c4274deee6e1)
+![image](https://github.com/Jeevapriya14/G2_DBMS/assets/121003043/c17b0d45-3675-42bc-9e8a-13ba921724e4)
+
 
 
 
@@ -39,7 +40,8 @@ create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),
 alter table Studentsdetails add dept char(20);
 ```
 ### OUTPUT:
-https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/ed2e752f-7aa7-4e74-b201-9e583613a692
+![image](https://github.com/Jeevapriya14/G2_DBMS/assets/121003043/7b3d065f-5628-46ae-b179-c8b039475f6c)
+
 
 
 ### 3) Drop the student table
@@ -49,7 +51,8 @@ https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/ed2e752f-7aa7-4e74-b201
 drop table Studentsdetails;
 ```
 ### OUTPUT:
-![Drop table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/d6c40d0f-ca23-4f91-8ddd-65d5df285516)
+![image](https://github.com/Jeevapriya14/G2_DBMS/assets/121003043/27bc4aa1-bb89-4c6c-954d-ef7428ef6368)
+
 
 ### 4) Delete the student table using truncate keyword
 
@@ -59,7 +62,8 @@ truncate table Studentsdetails;
 ```
 
 ### OUTPUT:
-![Truncate table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/af285f67-4c27-4048-98be-2afd893af907)
+![image](https://github.com/Jeevapriya14/G2_DBMS/assets/121003043/fc2999e4-a5fb-4c33-b02b-7bb32569705c)
+
 
 
 ### 5) Rename the student table to mystudent
@@ -70,4 +74,5 @@ alter table Studentsdetails rename to my_student;
 ```
 
 ### OUTPUT:
-![Rename table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/61cb9cc2-1352-4cf7-a508-94eadfc06a39)
+![image](https://github.com/Jeevapriya14/G2_DBMS/assets/121003043/08384aff-c57a-4ded-a3d9-2539a4368808)
+
