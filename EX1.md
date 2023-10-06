@@ -39,7 +39,7 @@ create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),
 alter table Studentsdetails add dept char(20);
 ```
 ### OUTPUT:
-![Alter table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/ed2e752f-7aa7-4e74-b201-9e583613a692)
+https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/ed2e752f-7aa7-4e74-b201-9e583613a692
 
 
 ### 3) Drop the student table
