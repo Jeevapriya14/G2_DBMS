@@ -22,37 +22,52 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
+```
+create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),address varchar(100),phoneno numeric(10));
+```
 
 
 ### OUTPUT:
+![Create table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/5309e192-aa2c-458e-a94e-c4274deee6e1)
+
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```
+alter table Studentsdetails add dept char(20);
+```
 ### OUTPUT:
+![Alter table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/ed2e752f-7aa7-4e74-b201-9e583613a692)
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
-
+```
+drop table Studentsdetails;
+```
 ### OUTPUT:
-
+![Drop table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/d6c40d0f-ca23-4f91-8ddd-65d5df285516)
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-
+```
+truncate table Studentsdetails;
+```
 
 ### OUTPUT:
-
+![Truncate table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/af285f67-4c27-4048-98be-2afd893af907)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
+```
+alter table Studentsdetails rename to my_student;
+```
 
 ### OUTPUT:
+![Rename table](https://github.com/Jeevapriya14/F2_DBMS/assets/121003043/61cb9cc2-1352-4cf7-a508-94eadfc06a39)
